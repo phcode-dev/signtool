@@ -73,5 +73,3 @@ fn main() {
     println!("signing  {}", file_name_to_sign);
     sign(file_name_to_sign, time_stamp_url);
 }
-
-
