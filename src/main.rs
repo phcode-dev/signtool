@@ -61,9 +61,6 @@ fn sign(file_name: &str, time_stamp_url: &str) {
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    for (i, arg) in args.iter().enumerate() {
-        println!("Argument {} : {}", i, arg);
-    }
     println!("length {}", args.len());
     if args.len() <= 10 {
         exit(1)
